@@ -40,26 +40,26 @@ ___
 
 ## 2. Is inetd Started in Your System? Why?
 
-### Check Command:
+* ***Check Command:***
 ```bash
 ps -e | grep inetd
 ```
-### Result:
+* ***Result:***
 ```bash
 42 ?        00:00:00 xinetd # This means inetd is not running
 ```
-### Why inetd is Not Running:
+* ***Why inetd is Not Running:***
 Deprecated - Replaced by `xinetd` (more secure) and `systemd`
 Security Risks - No access controls or rate limiting
 Performance - Newer solutions are more efficient
 
 ## 3. Is xinetd Started in Your System? What is its PID?
 
-### Check Command:
+* ***Check Command:***
 ```bash
 ps -e | grep xinetd
 ```
-### Result:
+* ***Result:***
 ```bash
 42 ?        00:00:00 xinetd # This means inetd is not running
 ```
@@ -104,7 +104,7 @@ ___
 | **wireshark** | GUI packet analyzer | Filters: `tcp.port`, `ip.addr`, `arp`, `-k` (start immediately) |
 | **iptables** | Configure firewall rules | `-A` (append rule), `-j` (target: ACCEPT/DROP), `-p` (protocol), `--dport` |
 
-### Examples:
+* ***Examples:***
 ```bash
 # Test connectivity
 ping -c 4 google.com
