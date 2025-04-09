@@ -148,7 +148,7 @@ ___
 | `ip.addr == ip-addr1 and (ip.addr == ip-addr2 or ip.addr == ip-addr3)` | Filters traffic involving ip-addr1 AND either ip-addr2 OR ip-addr3 | Any IP traffic |
 | `ip.addr == ip-addr1 and not ip.addr == ip-addr2` | Shows traffic involving ip-addr1 BUT NOT ip-addr2 | Any IP traffic |
 
-### Common Protocol Number:
+* ***Common Protocol Number:***
 - 89: OSPF
 
 # Report 7
