@@ -39,7 +39,6 @@ ___
 - **Replaced by**: Modern systems often use `xinetd` (eXtended inetd) or direct socket activation (systemd).
 
 ## 2. Is inetd Started in Your System? Why?
-
 * ***Check Command:***
 ```bash
 ps -e | grep inetd
